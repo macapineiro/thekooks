@@ -410,31 +410,26 @@ button{
 footer{
 
 	margin: 0 auto;
-	padding: 0;
 	background: black;
     width: 100%;
     height: 50px;
 }
 
 p.footer1{
-
 	font-size: 10px;
-	padding: 20px;
 	padding-left: 50px;
 	float: left;
 	color: white;
-	margin: 0 auto;
+	
 
 }
 
 a#footer2{
-
 	color: white;
 	font-size: 10px;
-	padding: 20px;
 	padding-right: 50px;
 	float: right;
-	margin: 0 auto;
+	
 
 
 }
