@@ -349,6 +349,11 @@ div.genero ul{
 
 }
 
+div.genero li{
+
+	margin-right: 10px;
+}
+
 div.genero p {
 
 	display: -webkit-inline-box;
