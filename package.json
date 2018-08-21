@@ -1,0 +1,25 @@
+{
+  "name": "macarena",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/style.scss css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "Coderhouse Project",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/macapineiro/thekooks.git"
+  },
+  "bugs": {
+    "url": "https://github.com/macapineiro/thekooks/issues"
+  },
+  "homepage": "https://github.com/macapineiro/thekooks#readme",
+  "devDependencies": {
+    "node-sass": "^4.9.3",
+    "nodemon": "^1.18.3"
+  }
+}
