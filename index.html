@@ -3,11 +3,17 @@
 <head>
 	<title>THE KOOKS</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<meta name= " viewport" content= " width=device-width,
-initial-scale=1.0" />
+	<meta name= "viewport" content= "width=device-width,
+	initial-scale=1.0"/>
 	<link rel="stylesheet" type="text/css" href="css/fontello.css">
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700" rel="stylesheet">
+
+	<script src= " https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity = "sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin = "anonymous" ></script>
+<script src= " https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity = "sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin = "anonymous" ></script>
+<script src= " https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity = "sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin = "anonymous" ></script>
+
+
 
 </head>
 <body id="home">
@@ -42,15 +48,33 @@ initial-scale=1.0" />
 
 
 	<main>
-		<section id="banner">
-			
-			<div class="bannerfoto">
-				
-			</div>
-
-
-			</section>	
-		
+		<div id = "demo" class = "carousel slide" data-ride = "carousel">
+<!-- Indicators -->
+<ul class = "carousel-indicators" >
+<li data-target = "#demo" data-slide-to = "0" class = "active" ></li>
+<li data-target = "#demo" data-slide-to = "1" ></li>
+<li data-target = "#demo" data-slide-to = "2" ></li>
+</ul>
+<!-- The slideshow -->
+<div class = "carousel-inner" >
+<div class = "carousel-item active" >
+<img class="img-fluid" src = "img/banner2.jpg" alt = "Los Angeles" >
+</div>
+<div class = "carousel-item" >
+	<img class="img-fluid" src = "img/banner2.jpg" alt = "Chicago" >
+</div>
+<div class = "carousel-item" >
+<img class="img-fluid" src = "img/banner2.jpg" alt = "New York" >
+</div>
+</div>
+<!-- Left and right controls -->
+<a class = "carousel-control-prev" href = "#demo" data-slide = "prev" >
+<span class = "carousel-control-prev-icon" ></span>
+</a>
+<a class = "carousel-control-next" href = "#demo" data-slide = "next" >
+<span class = "carousel-control-next-icon" ></span>
+</a>
+</div>
 			
 	</main>
 
@@ -216,7 +240,7 @@ initial-scale=1.0" />
 				<div class="social">
 					<a class="icon-facebook-squared" target="blank" href="https://www.facebook.com/thekooksofficial/"></a>
 					<a class="icon-twitter" target="blank" href="https://twitter.com/thekooksmusic?lang=es"></a>
-					<a class="icon-instagram" target="blank" href="https://www.instagram.com/thekooksmusic/?hl=es-la"></a>
+					<a  class="icon-instagram" target="blank" href="https://www.instagram.com/thekooksmusic/?hl=es-la"></a>
 					<a class="icon-up-big" target="blank" href=""></a>
 				</div>
 				

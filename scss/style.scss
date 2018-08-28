@@ -1,7 +1,55 @@
-$type_15: 15px;
+$colors : (
+twitter : #00aced ,
+facebook : #3b5998 ,
+instagram : #cd486b,
+);
 
 
-body {
+
+$padding-media: 10px;
+$font-size-media: 20px;
+$margin-right: 25px;
+$margin-top: 6px;
+$media-width: 35px;
+$media-text-align: center;
+$media-text-decoration: none;
+$media-color: white;
+$opacity-media: 0.7;
+$border-media: 20%;
+$float: right;
+$text-decoration: none;
+
+
+
+
+@each $name-color , $bgcolor in $colors {
+.btn-#{$name-color} {
+background-color : $bgcolor ;
+}
+}
+
+.social-media-ic{
 	
-	font-size: $type_15;
+	padding: $padding-media;
+    font-size: $font-size-media;
+    width: $media-width;
+    text-align: $media-text-align;
+    text-decoration: $media-text-decoration;
+    color: $media-color;
+    border-radius: $border-media;
+
+}
+
+.social-media-ic:hover{
+	
+	opacity: $opacity-media;
+	text-decoration: $text-decoration;
+	color: $media-color;
+}
+
+.social{
+	
+	margin-right: $margin-right;
+	float: $float;
+	margin-top: $margin-top;
 }
