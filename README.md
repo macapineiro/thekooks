@@ -1,2 +1,0 @@
-# thekooks
-Coderhouse Project
